@@ -1,4 +1,5 @@
 export * from './actor';
+export * from './actions';
 export * from './user';
 export * from './state';
 export * from './role';

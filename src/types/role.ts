@@ -5,7 +5,8 @@ export enum Role {
   None = 0,
   Prey = 1,
   Pred = 2,
-  Switch = Pred | Prey
+  Switch = Pred | Prey,
+  Any = null,
 }
 
 export default Role;
