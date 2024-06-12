@@ -1,0 +1,41 @@
+{
+  "name": "vore-me",
+  "version": "0.0.1",
+  "description": "Shared types and services for Vore.Me; A Vore and Profile-Play focused social networking game.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean-win": "rd /s /q dist",
+    "clean-unix": "rm -rf dist",
+    "build-clean-win": "npm run clean-win && npm run build",
+    "build-clean-unix": "npm run clean-unix && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vore-me/shared-js.git"
+  },
+  "keywords": [
+    "vore",
+    "game",
+    "social",
+    "eat",
+    "friends",
+    "nsfw",
+    "profile",
+    "play",
+    "capture",
+    "roleplay",
+    "rp",
+    "furry"
+  ],
+  "author": "github.com/vore-me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vore-me/shared-js/issues"
+  },
+  "homepage": "https://github.com/vore-me/shared-js#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
