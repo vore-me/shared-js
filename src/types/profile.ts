@@ -2,6 +2,9 @@ export type Profile = {
   /** The current display name of the actor.*/
   name: string;
 
+  /** The url for the current display icon of the actor.*/
+  icon: string;
+
   /** The current display status of the actor.*/
   status: string;
 

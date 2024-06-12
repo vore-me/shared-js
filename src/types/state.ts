@@ -1,10 +1,11 @@
 export enum State {
-  Free,
-  Captured,
-  Churning,
-  Digested,
-  DisposedOf,
-  Gone
+  FREE,
+  CAPTURED,
+  CONSUMED,
+  CHURNING,
+  DIGESTED,
+  DISPOSED_OF,
+  GONE
 }
 
 export default State;
