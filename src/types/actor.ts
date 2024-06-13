@@ -1,6 +1,5 @@
 import Preferences from "./prefs";
 import Profile from "./profile";
-import Role from "./role";
 import Stats from "./stats";
 
 /**
