@@ -21,5 +21,3 @@ export type Actor
   };
 
 export default Actor;
-
-

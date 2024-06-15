@@ -1,10 +1,9 @@
 import Actor from '../actor';
-import Preferences from '../prefs';
 import { Rules } from '../rules';
 
 export type Player
-  = Actor
-  & {
+  = {
+    actor: Actor;
     story: string;
     role: string;
     prefs: Rules;

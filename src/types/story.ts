@@ -1,5 +1,4 @@
 import { Action } from "./actions";
-import Actor from "./actor";
 import { Contract } from "./contracts/contract";
 
 export class Story {
@@ -7,8 +6,4 @@ export class Story {
   key: string;
   contract: Contract;
   actions: Action[];
-
-  get actors(): Set<Actor> {
-    return this.contract.players;
-  }
 }
